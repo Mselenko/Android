@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tally Counter</string>
+    <string name="button_test">Click Me</string>
+    <string name="reset_text">Reset</string>
+</resources>

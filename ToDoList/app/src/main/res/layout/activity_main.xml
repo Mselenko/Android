@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:gravity ="center_vertical|start"
+        android:textSize="24sp"
+        android:id="@+id/header" />
+
+    <ImageButton
+        android:id="@+id/add_item"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_alignEnd="@id/header"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/add_item"
+        android:src="@drawable/add_item_button" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo_list"
+        android:layout_below="@id/header" />
+
+</RelativeLayout>

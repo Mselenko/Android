@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Счетчик</string>
+    <string name="button_test">Нажми на меня!</string>
+    <string name="reset_text">Сбросить</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compteur De Pointage</string>
+    <string name="button_test">Cliquez moi!</string>
+    <string name="reset_text">Remettre</string>
+</resources>
